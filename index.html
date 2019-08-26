@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PotterMost</title>
+  <link rel="icon" href="http://web.unexlab.ucsd.edu/student302/pottermost/images/hp.jpg">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<style>
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background-color: rgb(54,54,54);
+	height: 200px;
+}
+
+.logo {
+	width: auto;
+	height: 100%;
+}
+
+.site_description {
+	position: absolute;
+	left: 500px;
+	top: 120px;
+}
+
+.header_text {
+	font-family: Trebuchet MS;
+	color: white;
+	font-style: italic;
+}
+
+.navbar {
+	position: absolute;
+	right: 0;
+	top: 100px;
+	padding: 30px;
+	text-align: right;
+	text-decoration: none;
+}
+
+.navlink {
+	font-family: Trebuchet MS;
+	font-size: 20pt;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navlink:hover {
+	background-color: rgb(185,185,185);
+}
+
+.navlink:active {
+	background-color: black;
+}
+	
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+.article_container {
+	width: 44%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	padding-left: 13%;
+	margin-top: 20px;
+}
+
+#article_1{
+	height: 400px;
+	width: 725px; 
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(185,185,185);
+}
+
+.article_text_1 {
+	position: absolute;
+	width: 725px;
+	text-align: left;
+}
+
+.characters {
+	width: 100%;
+	height: auto;
+}
+
+.article {
+	height: 200px;
+	width: 725px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(185,185,185);
+	position: relative;
+	margin-top: 20px;
+}
+
+.article_text {
+	position: absolute;
+	right: 0;
+	top:0;
+	width: 465px;
+	text-align: left;
+}
+
+.article_title {
+	text-align: left;
+	font-family: Trebuchet MS;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#article_1 a:link {
+	color: black;
+}
+
+
+#article_1 a:visited {
+	color: grey;
+}
+
+.article_description {
+	text-align: left;
+	font-family: Trebuchet MS;
+	padding: 5px;
+}
+
+.article_image {
+	width: 250px;
+	height:200px;
+}
+
+.recent_container {
+	width: 25%;
+	position: absolute;
+	right: 0;
+	padding-right: 13%;
+	margin-top: 20px;
+}
+
+.recent_heading_container {
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(185,185,185);
+	background-color: rgb(54,54,54);
+}
+
+.recent_heading {
+	text-align: center;
+	font-family: Trebuchet MS;
+	color: white;
+}
+
+.recent_list {
+	text-align: left;
+	font-family: Trebuchet MS;
+}	
+
+.icons {
+	text-align: center;
+	font-size: 40px;
+	padding: 20px;
+}
+
+.smlink:link {
+	color: rgb(54,54,54);
+}
+
+.smlink:visited {
+	color: rgb(100,100,100);
+}
+
+	
+</style>
+</head>
+
+<body>
+
+
+
+<header>
+	<a href="index.html"><img src="images/logo.png" title="Pottermost" alt="Pottermost" class="logo"></a>
+	<div class="site_description">
+		<p class="header_text">Where PotterHeads unite</p>
+	</div>
+	<div class="navbar">
+		<a href="#articles" class="navlink">Articles</a>
+		<a href="#quizzes" class="navlink">Quizzes</a>
+		<a href="#quiz_creator" class="navlink">Create</a>
+		<a href="#discussion" class="navlink">Discussion</a>
+	</div>
+</header>
+
+<div id="banner">
+<img src="http://web.unexlab.ucsd.edu/student302/pottermost/images/hogwarts_cropped.jpg" title="Hogwarts Castle" alt="Hogwarts Castle" class="responsive">
+</div>
+
+<div id="main_content">
+
+	<div class="article_container">
+		<a href="quiz.html">
+			<div id="article_1">
+				<img src="http://web.unexlab.ucsd.edu/student302/pottermost/images/characters_cropped.jpg" title="Characters" alt="Characters" class="characters">
+				<div class="article_text_1">
+					<h1 class="article_title">Which Harry Potter Character Are You?</h1>
+					<p class="article_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque libero cursus nibh consectetur, ut finibus sapien cursus.</p>
+				</div>
+			</a>
+		</div>
+		
+		<div class="article">
+			<img src="http://web.unexlab.ucsd.edu/student302/pottermost/images/harry_cropped.jpg" title="Harry Potter" alt="Harry Potter" class="article_image">
+			<div class="article_text">
+				<h1 class="article_title">A Definitive Guide To Broomsticks</h1>
+				<p class="article_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque libero cursus nibh consectetur, ut finibus sapien cursus.</p>
+			</div>
+		</div>
+		
+		<div class="article">
+			<img src="http://web.unexlab.ucsd.edu/student302/pottermost/images/patronus_cropped.jpg" title="Harry Potter" alt="Harry Potter" class="article_image">
+			<div class="article_text">
+				<h1 class="article_title">Discover Your Patronus</h1>
+				<p class="article_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque libero cursus nibh consectetur, ut finibus sapien cursus.</p>
+			</div>
+		</div>
+		
+		<div class="article">
+			<img src="http://web.unexlab.ucsd.edu/student302/pottermost/images/houses_cropped.jpg" title="Harry Potter" alt="Harry Potter" class="article_image">
+			<div class="article_text">
+				<h1 class="article_title">The Ultimate Sorting Hat Quiz</h1>
+				<p class="article_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque libero cursus nibh consectetur, ut finibus sapien cursus.</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="recent_container">
+			<div  class="recent_heading_container">
+				<h2 class="recent_heading">Recent Quizzes</h2>
+			</div>
+			<div class="recent_text">
+				<ul class="recent_list">
+					<li>Lorem ipsum dolor sit amet?</li>
+					<li>Duis scelerisque libero cursus nibh consectetur?</li>
+					<li>Donec leo ligula?</li>
+					<li>Lorem ipsum dolor sit amet?</li>
+					<li>Duis scelerisque libero cursus nibh consectetur?</li>
+					<li>Donec leo ligula?</li>
+					<li>Lorem ipsum dolor sit amet?</li>
+					<li>Duis scelerisque libero cursus nibh consectetur?</li>
+				</ul>
+			</div>
+		
+			<div class="recent_heading_container">
+				<h2 class="recent_heading">Recent Articles</h2>
+			</div>
+			<div class="recent_text">
+				<ul class="recent_list">
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Duis scelerisque libero cursus nibh consectetur</li>
+					<li>Donec leo ligula</li>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Duis scelerisque libero cursus nibh consectetur</li>
+					<li>Donec leo ligula</li>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Duis scelerisque libero cursus nibh consectetur</li>
+				</ul>
+			</div>
+			
+			<div class="recent_heading_container">
+				<h2 class="recent_heading">Follow</h2>
+			</div>
+			<div class="recent_text">
+				<div class="icons">
+					<a href="#facebook" title="Facebook" alt="Facebook" class="smlink" target="_blank"><i class="fab fa-facebook-square"></i></a>
+					<a href="#instagram" title="Instagram" alt="Instagram" class="smlink" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href=#twitter" title="Twitter" alt="Twitter" class="smlink" target="_blank"><i class="fab fa-twitter-square"></i></a>
+					<a href=#youtube" title="Youtube" title="Youtube" class="smlink" target="_blank"><i class="fab fa-youtube-square"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
